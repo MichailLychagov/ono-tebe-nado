@@ -35,10 +35,6 @@ header{
   display: block;
   width: 148px;
   height: 105px;
-  /* границы удалить до отправки на ревью 
-  border-color: orange; 
-border-width: 1px; 
-border-style: solid;*/
 }
 
 .header__logo-image{
