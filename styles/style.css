@@ -113,10 +113,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 28px;
-  color: white;
   margin-top: 111px;
 }
 
@@ -124,6 +120,7 @@
   text-transform: uppercase;
   word-spacing: 20px;
   color: #fff;
+  font-weight: 400;
   font-size: 22px;
   line-height: 28px;
   z-index: 3;
@@ -159,6 +156,7 @@
   margin-left: 40px;
   font-weight: 700;
   font-size: 40px;
+  line-height: 46.96px;
   text-transform: uppercase;
 }
 
@@ -219,6 +217,7 @@
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 48px;
+  line-height: 26.4px;
   z-index: 3;
 }
 
@@ -230,6 +229,7 @@
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 48px;
+  line-height: 24px;
   z-index: 3;
 }
 
@@ -243,6 +243,7 @@
   margin-left: 40px;
   font-weight: 400;
   font-size: 20px;
+  line-height: 23.48px;
 }
 
 .about {
@@ -285,6 +286,7 @@
   text-transform: uppercase;
   font-weight: 700;
   font-size: 40px;
+  line-height: 46.96px;
   margin-top: 135px;
 }
 
@@ -294,6 +296,7 @@
   font-weight: 400;
   font-size: 20px;
   margin-top: 87px;
+  line-height: 24px;
 }
 
 .about__text__1 {
@@ -327,12 +330,13 @@ footer {
 .footer__menu-list {
   display: block;
   text-align: center;
+  line-height: 21.13px;
   list-style: none;
 }
 
 .footer__menu-list-item {
   font-size: 18px;
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
   text-align: center;
 }
