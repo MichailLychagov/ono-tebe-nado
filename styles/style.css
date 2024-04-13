@@ -12,7 +12,7 @@
 
 .header__menu {
   display: flex;
-  line-height: 24px;
+  line-height: 21.13px;
 }
 
 .header__links-list {
@@ -26,7 +26,6 @@
 
 .header__links-list-item_no-bullit {
   list-style: none;
-  text-decoration: none;
 }
 
 .header__logo {
@@ -175,7 +174,7 @@
   flex-grow: 1;
   position: relative;
   width: 334px;
-  height: 563px;
+  min-height: 563px;
   z-index: 1;
 }
 
@@ -292,23 +291,21 @@
 
 .about__text {
   grid-area: text;
-  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
   font-weight: 400;
   font-size: 20px;
   margin-top: 87px;
   line-height: 24px;
+  padding-right: 27px;
 }
 
-.about__text__1 {
-  padding-right: 31px;
-}
-
-.about__text__2 {
-  margin-top: 26px;
-  margin-right: 23px;
-}
-
-footer {
+.footer {
+  display: grid;
+  min-width: 1000px;
+  grid-template-columns: 1fr 1fr 1fr;
   font-weight: 400;
   font-size: 18px;
   margin-top: 180px;
@@ -321,9 +318,7 @@ footer {
 }
 
 .footer__menu {
-  display: grid;
-  min-width: 1000px;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
   justify-content: center;
 }
 
